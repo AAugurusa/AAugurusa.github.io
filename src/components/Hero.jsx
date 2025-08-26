@@ -42,32 +42,32 @@ function addEffectWriting(element, time) {
     >
       <div className="py-4 md:w-1/2 md:flex-col">
         <p className="inline py-1 text-5xl font-black text-primary md:text-7xl">
-          Y
+          A
         </p>
         <ReactTypingEffect
-          speed="300"
+          speed="250"
           typingDelay="150"
           eraseDelay="1000"
           className="py-1 text-5xl font-black text-primary md:text-7xl"
-          text="oumna Jaza"
+          text="gustin Augurusa"
         />
         <h2 className="py-1 text-3xl font-bold">Software Engineer</h2>
         <p className="py-1 text-xl md:w-3/4">
-          I'm a software engineering fresh graduate and a cybersecurity analyst
-          with a passion for front-end development, mobile applications, and
-          UI/UX design. I strive to create user-friendly and visually appealing
-          software.
+          I'm a Software developer about to graduate in Software Engineering, with experience in software development,
+          game creation, and agile project management. I am organized, responsible, and possess strong
+          interpersonal skills. Currently seeking to join a professional environment that presents new challenges and
+          allows me to continue growing both technically and personally
         </p>
         <div className="flex items-center justify-center gap-4 py-4 md:justify-start md:py-6">
           <a
             className="inline-flex items-center gap-2"
-            href="https://github.com/Yomna-J"
+            href="https://github.com/AAugurusa"
           >
             <GoMarkGithub className="text-2xl" />
           </a>
           <a
             className="inline-flex items-center gap-2"
-            href="https://www.linkedin.com/in/youmna-jaza-373016233/"
+            href="https://www.linkedin.com/in/agustin-augurusa-167960220/"
           >
             <BsLinkedin className="text-2xl" />
           </a>

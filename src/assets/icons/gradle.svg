@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="20" role="img" aria-label="Gradle">
+    <title>Gradle</title>
+    <linearGradient id="s" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="70" height="20" rx="3" fill="#fff"/></clipPath>
+    <g clip-path="url(#r)">
+        <rect width="0" height="20" fill="#555"/>
+        <rect x="0" width="70" height="20" fill="#02303A"/> <!-- Fondo Gradle -->
+        <rect width="70" height="20" fill="url(#s)"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+        <image x="5" y="3" width="14" height="14"
+               xlink:href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JhZGxlPC90aXRsZT48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjIuNjk1IDQuMjk3YTMuODA3IDMuODA3IDAgMCAwLTUuMjkuMDkuMzY4LjM2OCAwIDAgMCAwIC41MzNsLjQ2LjQ3YS4zNjMuMzYzIDAgMCAwIC40NzQuMDMyIDIuMTgyIDIuMTgyIDAgMCAxIDIuODYgMy4yOTFjLTMuMDIzIDMuMDItNy4wNTYtNS40NDctMTYuMjExLTEuMDgzYTEuMjQgMS4yNCAwIDAgMC0uNTM0IDEuNzQ1bDEuNTcxIDIuNzEzYTEuMjM4IDEuMjM4IDAgMCAwIDEuNjgxLjQ2MWwuMDM3LS4wMi0uMDI5LjAybC42ODguMzg0YTE2LjA4MyAxNi4wODMgMCAwIDAgMi4xOTMtMS42MzUuMzg0LjM4NCAwIDAgMSAuNDk5LS4wMTYuMzU3LjM1NyAwIDAgMSAuMDE2LjUzNCAxNi40MzUgMTYuNDM1IDAgMCAxLTIuMzE2IDEuNzQxSDguNzFsLS42OTYuMzlhMS45NTggMS45NTggMCAwIDEtLjk2My4yNSAxLjk4NyAxLjk4NyAwIDAgMS0xLjcyNi0uOTg5TDMuOSA5LjY5NkMxLjA2IDExLjcyLS42ODYgMTUuNjAzLjI2IDIwLjUyMmEuMzYzLjM2MyAwIDAgMCAuMzU0LjI5NmgxLjY3NWEuMzYzLjM2MyAwIDAgMCAuMzctLjMzMSAyLjQ3OCAyLjQ3OCAwIDAgMSA0LjkxNSAwIC4zNi4zNiAwIDAgMCAuMzU3LjMxN2gxLjYzOGEuMzYzLjM2MyAwIDAgMCAuMzU3LS4zMTcgMi40NzggMi40NzggMCAwIDEgNC45MTQgMCAuMzYzLjM2MyAwIDAgMCAuMzU4LjMxN2gxLjYyN2EuMzYzLjM2MyAwIDAgMCAuMzYzLS4zNTdjLjAzNy0yLjI5NC42NTYtNC45MyAyLjQyLTYuMjUgNi4xMDgtNC41NyA0LjUwMi04LjQ4NiAzLjA4OC05LjlsLS4wMDEtLjAwMXptLTYuMjI5IDYuOTAxbC0xLjE2NS0uNTg0YS43My43MyAwIDEgMSAxLjE2NS41ODd6Ii8+PC9zdmc+" />
+        <text aria-hidden="true" x="455" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="370">Gradle</text>
+        <text x="455" y="140" transform="scale(.1)" fill="#fff" textLength="370">Gradle</text>
+    </g>
+</svg>

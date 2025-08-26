@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="20" role="img" aria-label="Jira Software">
+    <title>Jira Software</title>
+    <linearGradient id="grad" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <clipPath id="clip">
+        <rect width="105" height="20" rx="3"/>
+    </clipPath>
+
+    <!-- Fondo -->
+    <g clip-path="url(#clip)">
+        <rect width="105" height="20" fill="#0052CC"/>
+        <rect width="105" height="20" fill="url(#grad)"/>
+    </g>
+
+    <!-- Contenido: icono + texto -->
+    <g fill="#fff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision">
+        <!-- Icono Jira Software -->
+        <g transform="translate(3,3) scale(0.6)">
+            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"/>
+        </g>
+
+        <!-- Texto -->
+        <text x="22" y="14" font-size="10" font-weight="600" text-anchor="start">Jira Software</text>
+    </g>
+</svg>

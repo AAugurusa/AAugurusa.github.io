@@ -1,128 +1,108 @@
 import { default as java } from "./assets/icons/java.svg";
-import { default as python } from "./assets/icons/python.svg";
+import { default as kotlin } from "./assets/icons/kotlin.svg";
 import { default as js } from "./assets/icons/js.svg";
-import { default as html } from "./assets/icons/html.svg";
-import { default as css } from "./assets/icons/css.svg";
-import { default as dart } from "./assets/icons/dart.svg";
-import { default as cs } from "./assets/icons/cs.svg";
-import { default as php } from "./assets/icons/php.svg";
-import { default as flutter } from "./assets/icons/flutter.svg";
-import { default as react } from "./assets/icons/react.svg";
-import { default as redux } from "./assets/icons/redux.svg";
-import { default as mui } from "./assets/icons/mui.svg";
-import { default as bootstrap } from "./assets/icons/bootstrap.svg";
-import { default as blender } from "./assets/icons/blender.svg";
-import { default as adobexd } from "./assets/icons/adobexd.svg";
-import { default as figma } from "./assets/icons/figma.svg";
-import { default as fcm } from "./assets/icons/fcm.svg";
-import { default as bash } from "./assets/icons/bash.svg";
-import { default as mysql } from "./assets/icons/mysql.svg";
-import { default as phpmyadmin } from "./assets/icons/phpmyadmin.svg";
-import { default as snyk } from "./assets/icons/snyk.svg";
-import { default as linux } from "./assets/icons/linux.svg";
-import { default as unity } from "./assets/icons/unity.svg";
-import { default as androidstd } from "./assets/icons/androidstd.svg";
-import { default as vercel } from "./assets/icons/vercel.svg";
-import { default as xampp } from "./assets/icons/xampp.svg";
-import { default as tailwindcss } from "./assets/icons/tailwindcss.svg";
 import { default as typescript } from "./assets/icons/typescript.svg";
+import { default as cs } from "./assets/icons/cs.svg";
+import { default as haskell } from "./assets/icons/haskell.svg";
+import { default as rust } from "./assets/icons/rust.svg";
+
+// Frameworks / Libraries
 import { default as nodejs } from "./assets/icons/nodejs.svg";
-import { default as googlebooksapi } from "./assets/icons/googlebooksapi.svg";
-import { default as firebase } from "./assets/icons/firebase.svg";
-import { default as stripe } from "./assets/icons/stripe.svg";
-import { default as chatgptapi } from "./assets/icons/chatgptapi.svg";
+import { default as nestjs } from "./assets/icons/nestjs.svg";
+import { default as nextjs } from "./assets/icons/nextjs.svg";
+import { default as react } from "./assets/icons/react.svg";
+import { default as bootstrap } from "./assets/icons/bootstrap.svg";
+import { default as mui } from "./assets/icons/mui.svg";
+
+// Tools
+import { default as git } from "./assets/icons/git.svg";
+import { default as github } from "./assets/icons/github.svg";
+import { default as gitlab } from "./assets/icons/gitlab.svg";
+import { default as trello } from "./assets/icons/trello.svg";
+import { default as jira } from "./assets/icons/jira.svg";
+import { default as jirasm } from "./assets/icons/jirasm.svg"; // Jira Service Management
+import { default as figma } from "./assets/icons/figma.svg";
+import { default as gradle } from "./assets/icons/gradle.svg";
+
+// Videogame Engines
+import { default as unreal } from "./assets/icons/unreal.svg";
+import { default as godot } from "./assets/icons/godot.svg";
+import { default as gdvelop } from "./assets/icons/gdvelop.svg";
 
 const data = {
   languages: [
     { id: 1, alt: "Java", img: java },
-    { id: 2, alt: "Python", img: python },
+    { id: 2, alt: "Kotlin", img: kotlin },
     { id: 3, alt: "JavaScript", img: js },
-    { id: 28, alt: "TypeScript", img: typescript },
-    { id: 4, alt: "HTML5", img: html },
-    { id: 5, alt: "CSS3", img: css },
-    { id: 6, alt: "Dart", img: dart },
-    { id: 7, alt: "C Sharp", img: cs },
-    { id: 8, alt: "PHP", img: php },
+    { id: 4, alt: "TypeScript", img: typescript },
+    { id: 5, alt: "C#", img: cs },
+    { id: 6, alt: "Haskell", img: haskell },
+    { id: 7, alt: "Rust", img: rust },
   ],
   lib: [
-    { id: 9, alt: "Flutter", img: flutter },
-    { id: 10, alt: "React JS", img: react },
-    { id: 11, alt: "Redux", img: redux },
-    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
-    { id: 30, alt: "Node.js", img: nodejs },
-    { id: 12, alt: "MUI", img: mui },
-    { id: 13, alt: "Bootstrap", img: bootstrap },
-  ],
-  design: [
-    { id: 14, alt: "Blender", img: blender },
-    { id: 15, alt: "Adobe XD", img: adobexd },
-    { id: 16, alt: "Figma", img: figma },
+    { id: 8, alt: "Node.js", img: nodejs },
+    { id: 9, alt: "NestJS", img: nestjs },
+    { id: 10, alt: "Next.js", img: nextjs },
+    { id: 11, alt: "React", img: react },
+    { id: 12, alt: "Bootstrap", img: bootstrap },
+    { id: 13, alt: "MUI", img: mui },
   ],
   tools: [
-    { id: 17, alt: "Firebase Cloud Messaging", img: fcm },
-    { id: 31, alt: "Firebase", img: firebase },
-    { id: 18, alt: "Bash", img: bash },
-    { id: 19, alt: "MySQL", img: mysql },
-    { id: 20, alt: "phpMyAdmin", img: phpmyadmin },
-    { id: 21, alt: "Snyk", img: snyk },
-    { id: 22, alt: "Linux", img: linux },
-    { id: 23, alt: "Unity", img: unity },
-    { id: 24, alt: "Android Studio", img: androidstd },
-    { id: 26, alt: "Vercel", img: vercel },
-    { id: 27, alt: "Xampp", img: xampp },
+    { id: 14, alt: "Git", img: git },
+    { id: 15, alt: "GitHub", img: github },
+    { id: 16, alt: "GitLab", img: gitlab },
+    { id: 17, alt: "Trello", img: trello },
+    { id: 18, alt: "Jira Software", img: jira },
+    { id: 19, alt: "Jira Service Management", img: jirasm },
+    { id: 20, alt: "Figma", img: figma },
+    { id: 21, alt: "Gradle", img: gradle },
+  ],
+  engines: [
+    { id: 22, alt: "Unreal Engine 5", img: unreal },
+    { id: 23, alt: "Godot 4", img: godot },
+    { id: 24, alt: "GDevelop 5", img: gdvelop },
   ],
   project1: [
-    { id: 9, alt: "Flutter", img: flutter },
-    { id: 6, alt: "Dart", img: dart },
-    { id: 8, alt: "PHP", img: php },
-    { id: 27, alt: "Xampp", img: xampp },
-    { id: 20, alt: "phpMyAdmin", img: phpmyadmin },
-    { id: 17, alt: "Firebase Cloud Messaging", img: fcm },
-    { id: 24, alt: "Android Studio", img: androidstd },
-    { id: 19, alt: "MySQL", img: mysql },
-    { id: 15, alt: "Adobe XD", img: adobexd },
+    { id: 9, alt: "Kotlin", img: kotlin },
+    { id: 10, alt: "Git", img: git },
+    { id: 11, alt: "GitHub", img: github },
   ],
-  project2: [
-    { id: 10, alt: "React JS", img: react },
-    { id: 12, alt: "MUI", img: mui },
-    { id: 16, alt: "Figma", img: figma },
-    { id: 26, alt: "Vercel", img: vercel },
-  ], //bookish
   project3: [
-    { id: 10, alt: "React JS", img: react },
-    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
-    { id: 28, alt: "TypeScript", img: typescript },
-    { id: 30, alt: "Node.js", img: nodejs },
-    { id: 32, alt: "Google Books API", img: googlebooksapi },
-    { id: 31, alt: "Firebase", img: firebase },
-    { id: 33, alt: "Stripe", img: stripe },
-    { id: 16, alt: "Figma", img: figma },
-    { id: 26, alt: "Vercel", img: vercel },
+    { id: 16, alt: "Gdevelop", img: gdvelop },
+    { id: 17, alt: "JavaScript", img: js },
+    { id: 18, alt: "Gitlab", img: gitlab },
+    { id: 18, alt: "Jira", img: jira },
   ], //landgpt
   project4: [
-    { id: 10, alt: "React JS", img: react },
-    { id: 29, alt: "Tailwind CSS", img: tailwindcss },
-    { id: 30, alt: "Node.js", img: nodejs },
-    { id: 34, alt: "ChatGPT API", img: chatgptapi },
+    { id: 16, alt: "Gdevelop", img: gdvelop },
+    { id: 17, alt: "JavaScript", img: js },
+    { id: 18, alt: "Gitlab", img: gitlab },
+    { id: 18, alt: "Jira", img: jira },
+  ],
+  project5: [
+    { id: 16, alt: "Gdevelop", img: gdvelop },
+    { id: 17, alt: "JavaScript", img: js },
+    { id: 18, alt: "Gitlab", img: gitlab },
+    { id: 18, alt: "Jira", img: jira },
   ],
   card1: [
-    { id: 9, alt: "Flutter", img: flutter },
-    { id: 6, alt: "Dart", img: dart },
+    { id: 9, alt: "Flutter", img: nextjs },
+    { id: 6, alt: "Dart", img: nextjs },
   ],
   card2: [
-    { id: 9, alt: "Flutter", img: flutter },
-    { id: 6, alt: "Dart", img: dart },
+    { id: 9, alt: "Flutter", img: nextjs },
+    { id: 6, alt: "Dart", img: nextjs },
   ],
   card3: [
     { id: 3, alt: "JavaScript", img: js },
-    { id: 4, alt: "HTML5", img: html },
+    { id: 4, alt: "HTML5", img: nextjs },
     { id: 13, alt: "Bootstrap", img: bootstrap },
   ],
   card4: [
     { id: 3, alt: "JavaScript", img: js },
-    { id: 8, alt: "PHP", img: php },
-    { id: 4, alt: "HTML5", img: html },
-    { id: 19, alt: "MySQL", img: mysql },
+    { id: 8, alt: "PHP", img: nextjs },
+    { id: 4, alt: "HTML5", img: nextjs },
+    { id: 19, alt: "MySQL", img: nextjs },
     { id: 13, alt: "Bootstrap", img: bootstrap },
   ],
 };

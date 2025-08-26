@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-3 md:block md:py-5">
             <a href="#">
               <h2 className="font-impact text-3xl">
-                <span className="text-primary">&lt;Y</span>oumna
+                <span className="text-primary">&lt;</span>Agustin
                 <span className="text-primary">/&gt; </span>
               </h2>
             </a>

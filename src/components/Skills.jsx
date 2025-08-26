@@ -1,7 +1,7 @@
 import data from "../data";
 import { HiOutlineDocument } from "react-icons/hi";
 import { BiCodeAlt } from "react-icons/bi";
-import { BiPaint } from "react-icons/bi";
+import { BiGame } from "react-icons/bi";
 import { FiTool } from "react-icons/fi";
 import SkillCard from "./ui/SkillCard";
 
@@ -21,8 +21,8 @@ const Skills = () => {
         <SkillCard title="Libs & Frameworks" tools={data.lib}>
           <HiOutlineDocument className="text-secondary " size={35} />
         </SkillCard>
-        <SkillCard title="Design" tools={data.design}>
-          <BiPaint className="text-secondary" size={35} />
+        <SkillCard title="Videogames Engines" tools={data.engines}>
+          <BiGame className="text-secondary" size={35} />
         </SkillCard>
         <SkillCard title="Tools" tools={data.tools}>
           <FiTool className="text-secondary" size={35} />

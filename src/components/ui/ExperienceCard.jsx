@@ -6,7 +6,7 @@ const ExperienceCard = ({ logo, name, job, duration, skills, bgColor }) => {
       <div className="relative top-0 left-0 w-3/4 md:w-1/2">
         <img className="relative top-0 left-0" src={blob} alt="blob" />
         <img
-          className="absolute top-[43%] left-[28%] w-1/2 md:max-w-[45%]"
+          className="absolute top-[30%] left-[25%] w-1/2 md:max-w-[50%]"
           src={logo}
           alt={name}
         />

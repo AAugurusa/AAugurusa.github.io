@@ -1,0 +1,27 @@
+<svg role="img" width="70" height="20" xmlns="http://www.w3.org/2000/svg" aria-label="Trello">
+    <title>Trello</title>
+    <linearGradient id="grad" x2="0" y2="100%">
+        <stop offset="0" stop-color="#000" stop-opacity="0.05"/>
+        <stop offset="1" stop-color="#000" stop-opacity="0.03"/>
+    </linearGradient>
+    <clipPath id="clip">
+        <rect width="70" height="20" rx="3"/>
+    </clipPath>
+
+    <!-- Fondo -->
+    <g clip-path="url(#clip)">
+        <rect width="70" height="20" fill="#0052CC"/>
+        <rect width="70" height="20" fill="url(#grad)"/>
+    </g>
+
+    <!-- Contenido: icono + texto -->
+    <g font-family="Verdana, Geneva, DejaVu Sans, sans-serif" text-rendering="geometricPrecision" fill="#ffffff" fill-rule="evenodd">
+        <!-- Icono Trello -->
+        <g transform="translate(3,3) scale(0.6)">
+            <path d="M21.147 0H2.853A2.86 2.86 0 000 2.853v18.294A2.86 2.86 0 002.853 24h18.294A2.86 2.86 0 0024 21.147V2.853A2.86 2.86 0 0021.147 0zM10.34 17.287a.953.953 0 01-.953.953h-4a.954.954 0 01-.954-.953V5.38a.953.953 0 01.954-.953h4a.954.954 0 01.953.953zm9.233-5.467a.944.944 0 01-.953.947h-4a.947.947 0 01-.953-.947V5.38a.953.953 0 01.953-.953h4a.954.954 0 01.953.953z"/>
+        </g>
+
+        <!-- Texto -->
+        <text x="25" y="14" font-size="10" font-weight="600" text-anchor="start">Trello</text>
+    </g>
+</svg>

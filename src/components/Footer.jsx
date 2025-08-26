@@ -14,48 +14,48 @@ const Footer = () => {
       <div className="w-full md:flex md:flex-row md:justify-between md:gap-5 md:px-4">
         <a href="#">
           <h2 className="font-impact text-3xl">
-            <span className="text-primary">&lt;Y</span>oumna
+            <span className="text-primary">&lt;</span>Agustin
             <span className="text-primary">/&gt; </span>
           </h2>
         </a>
         <div className="flex flex-col items-center gap-4 py-4 md:flex-row md:py-0">
           <a
             className="inline-flex items-center gap-2"
-            href="https://github.com/Yomna-J"
+            href="https://github.com/AAugurusa"
           >
-            <GoMarkGithub /> Yomna-J
+            <GoMarkGithub /> AAugurusa
           </a>
           <a
             className="inline-flex items-center gap-2"
-            href="https://www.linkedin.com/in/youmna-jaza-373016233/"
+            href="https://www.linkedin.com/in/agustin-augurusa-167960220/"
           >
-            <BsLinkedin /> Youmna Jaza
+            <BsLinkedin /> Agustin Augurusa
           </a>
           <a
             className="inline-flex items-center gap-2"
-            href="mailto:youmnajaza@gmail.com"
+            href="mailto:augurusaagustin@gmail.com"
           >
-            <HiMail /> youmnajaza@gmail.com
+            <HiMail /> augurusaagustin@gmail.com
           </a>
         </div>
       </div>
-      <h1 className="py-2 text-xs font-bold text-primary">
-        Design Inspired by
-        <a
-          href="https://www.figma.com/@ontalex"
-          className="hover:text-secondary"
-        >
-          {" "}
-          Ontalex
-        </a>{" "}
-        & built by{" "}
-        <a
-          className="hover:text-secondary"
-          href="https://github.com/Yomna-J/Portfolio"
-        >
-          Youmna Jaza
-        </a>
-      </h1>
+      {/*<h1 className="py-2 text-xs font-bold text-primary">*/}
+      {/*  Design Inspired by*/}
+      {/*  <a*/}
+      {/*    href="https://www.figma.com/@ontalex"*/}
+      {/*    className="hover:text-secondary"*/}
+      {/*  >*/}
+      {/*    {" "}*/}
+      {/*    Ontalex*/}
+      {/*  </a>{" "}*/}
+      {/*  & built by{" "}*/}
+      {/*  <a*/}
+      {/*    className="hover:text-secondary"*/}
+      {/*    href="https://github.com/Yomna-J/Portfolio"*/}
+      {/*  >*/}
+      {/*    Youmna Jaza*/}
+      {/*  </a>*/}
+      {/*</h1>*/}
     </div>
   );
 };
