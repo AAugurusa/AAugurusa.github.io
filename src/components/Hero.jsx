@@ -53,10 +53,7 @@ function addEffectWriting(element, time) {
         />
         <h2 className="py-1 text-3xl font-bold">Software Engineer</h2>
         <p className="py-1 text-xl md:w-3/4">
-          I'm a Software developer about to graduate in Software Engineering, with experience in software development,
-          game creation, and agile project management. I am organized, responsible, and possess strong
-          interpersonal skills. Currently seeking to join a professional environment that presents new challenges and
-          allows me to continue growing both technically and personally
+          I’m a Software Developer passionate about creating impactful digital experiences. From developing web applications to designing educational games, I enjoy combining creativity and technology to solve real-world problems while learning and growing every step of the way.
         </p>
         <div className="flex items-center justify-center gap-4 py-4 md:justify-start md:py-6">
           <a
