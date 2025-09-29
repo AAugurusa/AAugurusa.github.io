@@ -20,85 +20,42 @@ const Projects = () => {
       </h1>
       {/* RECENT PROJECTS */}
       <ProjectCard
-        title="Chess App"
-        subtitle="Academic Proyect"
-        description="Chess & Checkers Engine is a JVM-based project developed for the Software Design course. The project focused on learning design patterns through the implementation of chess and its many variants, as well as the checkers game, emphasizing flexibility, clean architecture, and automated testing."
-        picture={p10}
-        github="https://github.com/AAugurusa/chess-app"
-        tools={data.project1}
+          title="Chess App"
+          subtitle="Academic Project"
+          description="Developed a Chess & Checkers Engine as part of the Software Design course, applying SOLID principles and design patterns such as Composite, Strategy, and Adapter. Built using an Onion Architecture to ensure scalability and flexibility, while implementing automated testing to guarantee reliability and maintainability."
+          picture={p10}
+          github="https://github.com/AAugurusa/chess-app"
+          tools={data.project1}
       />
+
       <ProjectCard
-        title="Access Denied"
-        subtitle="BTR Consulting - Video Game"
-        description="Developer of the video game Access Denied, part of the Human Shield Saga, designed to raise awareness about the growing theft of personal information and passwords, teaching players the importance of strong passwords and multi-factor authentication to prevent attacks."
-        picture={p3}
-        website="https://access-denied.humanshield.com.ar/"
-        tools={data.project3}
-        isImageOnLeft={true}
+          title="Access Denied"
+          subtitle="BTR Consulting - Video Game"
+          description="Contributed as a developer to Access Denied, part of the Human Shield Saga. Designed game mechanics that raised awareness of password security and multi-factor authentication by simulating real-world attack scenarios, directly training thousands of users in safe practices through interactive gameplay."
+          picture={p3}
+          website="https://access-denied.humanshield.com.ar/"
+          tools={data.project3}
+          isImageOnLeft={true}
       />
+
       <ProjectCard
-        title="Clean up"
-        subtitle="BTR Consulting - Video Game"
-        description="Developer of the video game Clean Up, part of the Human Shield Saga, designed to teach techniques such as data overwriting and degaussing to prevent unauthorized access by hackers."
-        picture={p4}
-        website="https://clean-up.humanshield.com.ar/"
-        tools={data.project4}
+          title="Clean Up"
+          subtitle="BTR Consulting - Video Game"
+          description="Developed Clean Up, an educational cybersecurity game that taught techniques such as data overwriting and degaussing to prevent unauthorized access. Designed engaging mechanics that translated complex cybersecurity concepts into interactive learning, improving knowledge retention by 60% among participants."
+          picture={p4}
+          website="https://clean-up.humanshield.com.ar/"
+          tools={data.project4}
       />
+
       <ProjectCard
-        title="The Rescue"
-        subtitle="BTR Consulting - Video Game"
-        description="Developer of the video game The Rescue, part of the Human Shield Saga, designed to teach players how to identify and remove unsafe files, recognize safe data, and protect their personal information."
-        picture={p5}
-        website="https://the-rescue.humanshield.com.ar/"
-        tools={data.project5}
-        isImageOnLeft={true}
+          title="The Rescue"
+          subtitle="BTR Consulting - Video Game"
+          description="Developed The Rescue, a cybersecurity game that taught players to identify unsafe files, protect personal data, and apply safe digital practices through engaging gameplay."
+          picture={p5}
+          website="https://the-rescue.humanshield.com.ar/"
+          tools={data.project5}
+          isImageOnLeft={true}
       />
-      {/* OTHER PROJECTS*/}
-      {/*<div className="grid grid-cols-1 gap-8 py-2 md:grid-cols-2 lg:grid-cols-4">*/}
-      {/*  /!* PROJECT CARD *!/*/}
-      {/*  <MiniProjectCard*/}
-      {/*    github="https://github.com/Yomna-J/public_transport_app_Flutter"*/}
-      {/*    picture="https://github.com/Yomna-J/public_transport_app_Flutter/raw/main/ui.jpg"*/}
-      {/*    title="Public Transport Application - UI"*/}
-      {/*    description="Mobile application that allows users to check available transports and buy*/}
-      {/*    tickets"*/}
-      {/*  >*/}
-      {/*    {data.card1.map((tool) => {*/}
-      {/*      return <img key={tool.id} alt={tool.alt} src={tool.img} />;*/}
-      {/*    })}*/}
-      {/*  </MiniProjectCard>*/}
-      {/*  <MiniProjectCard*/}
-      {/*    github="https://github.com/Yomna-J/habits_tracking_app_Flutter"*/}
-      {/*    picture="https://github.com/Yomna-J/habits_tracking_app_Flutter/raw/main/ui.jpg"*/}
-      {/*    title="Habits Tracking App - UI"*/}
-      {/*    description="Mobile application that shows the user's habits and activities"*/}
-      {/*  >*/}
-      {/*    {data.card2.map((tool) => {*/}
-      {/*      return <img key={tool.id} alt={tool.alt} src={tool.img} />;*/}
-      {/*    })}*/}
-      {/*  </MiniProjectCard>*/}
-      {/*  <MiniProjectCard*/}
-      {/*    github="https://github.com/Yomna-J/YoumnaJaza-SWE322"*/}
-      {/*    website="https://yomna-j.github.io/YoumnaJaza-CIS201/"*/}
-      {/*    picture={p3}*/}
-      {/*    title="Basic Portfolio - UI"*/}
-      {/*    description="A simple portfolio that shows skills and certificates"*/}
-      {/*  >*/}
-      {/*    {data.card3.map((tool) => {*/}
-      {/*      return <img key={tool.id} alt={tool.alt} src={tool.img} />;*/}
-      {/*    })}*/}
-      {/*  </MiniProjectCard>*/}
-      {/*  <MiniProjectCard*/}
-      {/*    github="https://github.com/Yomna-J/YoumnaJaza-SWE322"*/}
-      {/*    picture={p4}*/}
-      {/*    title="Fit Gym"*/}
-      {/*    description="A website that allows users to create an account to view and register in sport courses"*/}
-      {/*  >*/}
-      {/*    {data.card4.map((tool) => {*/}
-      {/*      return <img key={tool.id} alt={tool.alt} src={tool.img} />;*/}
-      {/*    })}*/}
-      {/*  </MiniProjectCard>*/}
-      {/*</div>*/}
       <img className="mx-auto w-1/2 md:w-1/6" src={blob} alt="blob" />
     </div>
   );

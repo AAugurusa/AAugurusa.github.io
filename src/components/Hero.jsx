@@ -47,7 +47,7 @@ function addEffectWriting(element, time) {
         <ReactTypingEffect
           speed="250"
           typingDelay="150"
-          eraseDelay="1000"
+          eraseDelay="1500"
           className="py-1 text-5xl font-black text-primary md:text-7xl"
           text="gustin Augurusa"
         />
