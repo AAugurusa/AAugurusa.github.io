@@ -57,7 +57,7 @@ const Experience = () => {
         logo={ualogo}
         name="UA"
         job="Universidad Austral | Software Engineering"
-        duration="Mar. 2019 - Sep. 2025"
+        duration="Mar. 2019 - Oct. 2025"
         skills={ua}
       />
     </div>
