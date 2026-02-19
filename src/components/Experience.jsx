@@ -1,7 +1,9 @@
 import ExperienceCard from "./ui/ExperienceCard";
-import { default as btrlogo } from "../assets/btr.svg";
+import { default as exxonlogo } from "../assets/exxonlogo.svg";
 import { default as ualogo } from "../assets/ua.svg";
 import { default as renlogo } from "../assets/ren.svg";
+import { default as btrlogo } from "../assets/btr.svg";
+
 
 
 
@@ -37,6 +39,14 @@ const Experience = () => {
       </h1>
 
       {/* Experience Cards */}
+      <ExperienceCard
+          logo={exxonlogo}
+          name="Exxon"
+          job="ExxonMobil | Full Stack Developer"
+          duration="Feb. 2026 - Present"
+            skills={[]}
+      />
+
       <ExperienceCard
         logo={btrlogo}
         name="Mozn"

@@ -12,12 +12,12 @@ const Footer = () => {
         Contact Me
       </h1>
       <div className="w-full md:flex md:flex-row md:justify-between md:gap-5 md:px-4">
-        <a href="#">
+        {/*<a href="#">*/}
           <h2 className="font-impact text-3xl">
             <span className="text-primary">&lt;</span>Agustin
             <span className="text-primary">/&gt; </span>
           </h2>
-        </a>
+        {/*</a>*/}
         <div className="flex flex-col items-center gap-4 py-4 md:flex-row md:py-0">
           <a
             className="inline-flex items-center gap-2"

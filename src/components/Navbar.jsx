@@ -10,12 +10,12 @@ const Navbar = () => {
       <div className="mx-auto justify-between px-4 md:flex md:items-center lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
-            <a href="#">
+            {/*<a href="#">*/}
               <h2 className="font-impact text-3xl">
                 <span className="text-primary">&lt;</span>Agustin
                 <span className="text-primary">/&gt; </span>
               </h2>
-            </a>
+            {/*</a>*/}
             <div className="md:hidden">
               <button
                 className="text-gray-700 focus:border-gray-400 rounded-md p-2 outline-none focus:border"
