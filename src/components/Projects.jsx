@@ -1,10 +1,7 @@
-import { default as Hurairah } from "../assets/hurairah.svg";
 import p4 from "../assets/p4.png";
 import p3 from "../assets/p3.png";
 import p5 from "../assets/p5.png";
-import p6 from "../assets/p6.png";
 import p10 from "../assets/p10.png";
-import MiniProjectCard from "./ui/MiniProjectCard";
 import { default as blob } from "../assets/blob.svg";
 import data from "../data";
 import ProjectCard from "./ui/ProjectCard";
