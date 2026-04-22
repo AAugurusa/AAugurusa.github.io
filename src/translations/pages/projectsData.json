@@ -1,0 +1,82 @@
+{
+  "en": {
+    "items": [
+      {
+        "id": "project-1",
+        "imageKey": "p_accessdenied",
+        "iconKey": "icon_accessdenied2",
+        "title": "HS - Access Denied",
+        "company": "BTR Consulting",
+        "description": "Cybersecurity game focused on secure password creation and multi-factor authentication (MFA).",
+        "fullDescription": "Access Denied is an interactive cybersecurity game designed to teach players how to create secure passwords and understand multi-factor authentication (MFA) through gameplay. The experience uses interactive feedback loops and decision-based mechanics to reinforce learning outcomes.",
+        "learnings": "Designed and implemented core gameplay systems, focusing on feedback loops and player decision-making. Improved understanding of how to translate abstract security concepts into interactive mechanics that drive engagement and retention.",
+        "tools": ["GDevelop", "Game Design", "Gameplay Systems", "Gamification"],
+        "projectUrl": "https://access-denied.humanshield.com.ar/"
+      },
+      {
+        "id": "project-2",
+        "imageKey": "p_cleanup",
+        "iconKey": "icon_cleanup",
+        "title": "HS - Clean Up",
+        "company": "BTR Consulting",
+        "description": "Strategy-based game inspired by Plants vs Zombies focused on secure data deletion.",
+        "fullDescription": "Clean Up is an interactive game where players learn how to identify and properly eliminate different types of data. Inspired by tower defense mechanics, the game combines strategy and learning to reinforce correct data handling practices.",
+        "learnings": "Worked on gameplay systems that combine strategy and education. Learned how to design mechanics that encourage player decision-making while maintaining clarity and usability.",
+        "tools": ["GDevelop", "Game Design", "Gameplay Systems", "Gamification"],
+        "projectUrl": "https://clean-up.humanshield.com.ar/"
+      },
+      {
+        "id": "project-3",
+        "imageKey": "p_therescue",
+        "iconKey": "icon_therescue",
+        "title": "HS - The Rescue",
+        "company": "BTR Consulting",
+        "description": "Arcade-style game inspired by 1942 focused on identifying malicious files.",
+        "fullDescription": "The Rescue is an arcade-inspired game where players learn to identify malicious files among different file types. The project focuses on fast-paced gameplay combined with decision-making under pressure.",
+        "learnings": "Strengthened ability to design fast feedback systems and responsive gameplay loops. Successfully contributed to delivering the project one month ahead of schedule, improving production timelines.",
+        "tools": ["GDevelop", "Game Design", "Gameplay Systems", "Gamification"],
+        "projectUrl": "https://the-rescue.humanshield.com.ar/"
+      }
+    ]
+  },
+  "es": {
+    "items": [
+      {
+        "id": "project-1",
+        "imageKey": "p_accessdenied",
+        "iconKey": "icon_accessdenied2",
+        "title": "HS - Access Denied",
+        "company": "BTR Consulting",
+        "description": "Juego de ciberseguridad enfocado en la creacion de contrasenas seguras y autenticacion multifactor (MFA).",
+        "fullDescription": "Access Denied es un juego interactivo de ciberseguridad disenado para ensenar a crear contrasenas seguras y comprender la autenticacion multifactor (MFA) mediante gameplay. La experiencia usa bucles de feedback interactivos y mecanicas basadas en decisiones para reforzar el aprendizaje.",
+        "learnings": "Diseno e implementacion de sistemas centrales de gameplay, con foco en bucles de feedback y toma de decisiones del jugador. Mejore la capacidad de traducir conceptos abstractos de seguridad en mecanicas interactivas que impulsan engagement y retencion.",
+        "tools": ["GDevelop", "Diseno de Juegos", "Sistemas de Gameplay", "Gamificacion"],
+        "projectUrl": "https://access-denied.humanshield.com.ar/"
+      },
+      {
+        "id": "project-2",
+        "imageKey": "p_cleanup",
+        "iconKey": "icon_cleanup",
+        "title": "HS - Clean Up",
+        "company": "BTR Consulting",
+        "description": "Juego de estrategia inspirado en Plants vs Zombies enfocado en el borrado seguro de datos.",
+        "fullDescription": "Clean Up es un juego interactivo donde los jugadores aprenden a identificar y eliminar correctamente distintos tipos de datos. Inspirado en mecanicas de tower defense, combina estrategia y aprendizaje para reforzar buenas practicas de manejo de datos.",
+        "learnings": "Trabajo en sistemas de gameplay que combinan estrategia y educacion. Aprendi a disenar mecanicas que fomentan la toma de decisiones manteniendo claridad y usabilidad.",
+        "tools": ["GDevelop", "Diseno de Juegos", "Sistemas de Gameplay", "Gamificacion"],
+        "projectUrl": "https://clean-up.humanshield.com.ar/"
+      },
+      {
+        "id": "project-3",
+        "imageKey": "p_therescue",
+        "iconKey": "icon_therescue",
+        "title": "HS - The Rescue",
+        "company": "BTR Consulting",
+        "description": "Juego estilo arcade inspirado en 1942 enfocado en identificar archivos maliciosos.",
+        "fullDescription": "The Rescue es un juego inspirado en arcades donde los jugadores aprenden a identificar archivos maliciosos entre distintos tipos de archivos. El proyecto se enfoca en gameplay rapido combinado con toma de decisiones bajo presion.",
+        "learnings": "Fortaleci la capacidad de disenar sistemas de feedback rapido y bucles de juego responsivos. Contribui a entregar el proyecto un mes antes de lo previsto, mejorando los tiempos de produccion.",
+        "tools": ["GDevelop", "Diseno de Juegos", "Sistemas de Gameplay", "Gamificacion"],
+        "projectUrl": "https://the-rescue.humanshield.com.ar/"
+      }
+    ]
+  }
+}

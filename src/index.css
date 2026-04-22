@@ -10,3 +10,137 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Persona 3 Reload inspired base palette */
+:root {
+  --p3-bg: #050814;
+  --p3-primary: #00b0ff;
+  --p3-primary-dark: #0078b3;
+  --p3-accent: #ff1744;
+  --p3-text: #e5f2ff;
+}
+
+body {
+  background: radial-gradient(circle at top, #071121 0, #050814 40%, #02030a 100%);
+  color: var(--p3-text);
+}
+
+.font-impact {
+  font-family: "impact", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Persona-style menu button */
+.persona-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.8rem;
+  border-radius: 9999px;
+  border: 2px solid var(--p3-primary);
+  background: rgba(5, 8, 20, 0.92);
+  color: var(--p3-text);
+  overflow: hidden;
+  transition: background 0.2s ease-out, color 0.2s ease-out, transform 0.15s ease-out, box-shadow 0.2s ease-out;
+  box-shadow: 0 0 16px rgba(0, 176, 255, 0.35);
+}
+
+.persona-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(0, 176, 255, 0.55) 50%, transparent 100%);
+  transform: translateX(-120%);
+  transition: transform 0.35s ease-out;
+  opacity: 0.8;
+}
+
+.persona-btn__label {
+  position: relative;
+  z-index: 1;
+}
+
+.persona-btn:hover {
+  background: #0b1930;
+  color: #ffffff;
+  box-shadow: 0 0 22px rgba(0, 176, 255, 0.6);
+}
+
+.persona-btn:hover::before {
+  transform: translateX(120%);
+}
+
+.persona-btn:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+/* Ensure form inputs and textarea show white text and caret */
+input,
+textarea,
+select {
+  color: #ffffff;
+  caret-color: #ffffff;
+}
+
+/* Chrome/Edge autofill fix: force white text and dark background */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset !important;
+  box-shadow: 0 0 0px 1000px #000 inset !important;
+  caret-color: #ffffff !important;
+}
+
+/* Also target autofill when the element is focused */
+input:-internal-autofill-selected,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-selected {
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+@keyframes shotUp {
+  0% {
+    opacity: 0;
+    transform: translateY(36px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.shot-up {
+  animation: shotUp 1100ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+}
+
+.shot-up-stagger {
+  animation: shotUp 1250ms cubic-bezier(0.2, 0.9, 0.2, 1) both;
+}
+
+/* Contact modal fields: enforce readable text across normal and autofill states */
+.contact-input,
+.contact-textarea {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: rgba(226, 232, 240, 0.6) !important;
+  -webkit-text-fill-color: rgba(226, 232, 240, 0.6) !important;
+}
+
+.contact-input:-webkit-autofill,
+.contact-input:-webkit-autofill:hover,
+.contact-input:-webkit-autofill:focus,
+.contact-textarea:-webkit-autofill,
+.contact-textarea:-webkit-autofill:hover,
+.contact-textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #0f172a inset !important;
+  box-shadow: 0 0 0px 1000px #0f172a inset !important;
+  caret-color: #ffffff !important;
+}

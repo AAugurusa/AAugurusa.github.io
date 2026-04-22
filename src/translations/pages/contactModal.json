@@ -1,0 +1,42 @@
+{
+  "en": {
+    "closeAria": "Close contact modal",
+    "eyebrow": "Direct message",
+    "title": "Contact",
+    "description": "Tell me a bit about your idea, project, or role, and I will get back to you.",
+    "fields": {
+      "email": "Email",
+      "topic": "Topic",
+      "description": "Description"
+    },
+    "buttons": {
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "toasts": {
+      "emailServiceMissing": "Email service is not configured yet.",
+      "success": "Information sent. Thank you!",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "es": {
+    "closeAria": "Cerrar modal de contacto",
+    "eyebrow": "Mensaje directo",
+    "title": "Contacto",
+    "description": "Contame brevemente tu idea, proyecto o rol y te respondere a la brevedad.",
+    "fields": {
+      "email": "Email",
+      "topic": "Tema",
+      "description": "Descripcion"
+    },
+    "buttons": {
+      "send": "Enviar",
+      "sending": "Enviando..."
+    },
+    "toasts": {
+      "emailServiceMissing": "El servicio de email no esta configurado todavia.",
+      "success": "Informacion enviada. Gracias!",
+      "error": "Algo salio mal. Intenta nuevamente."
+    }
+  }
+}

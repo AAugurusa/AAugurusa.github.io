@@ -1,0 +1,52 @@
+{
+  "en": {
+    "home": {
+      "pressEnter": "PRESS ENTER TO START",
+      "name": "Agustin Augurusa"
+    },
+    "menu": {
+      "start": "START",
+      "extra": "EXTRA",
+      "credits": "CREDITS",
+      "contact": "CONTACT"
+    },
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    },
+    "social": {
+      "githubAria": "GitHub",
+      "linkedinAria": "LinkedIn",
+      "copyEmailAria": "Copy email",
+      "copyEmailTitle": "Copy email"
+    },
+    "toasts": {
+      "emailCopied": "Email copied!"
+    }
+  },
+  "es": {
+    "home": {
+      "pressEnter": "PRESIONA ENTER PARA EMPEZAR",
+      "name": "Agustin Augurusa"
+    },
+    "menu": {
+      "start": "INICIO",
+      "extra": "EXTRA",
+      "credits": "CREDITOS",
+      "contact": "CONTACTO"
+    },
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    },
+    "social": {
+      "githubAria": "GitHub",
+      "linkedinAria": "LinkedIn",
+      "copyEmailAria": "Copiar email",
+      "copyEmailTitle": "Copiar email"
+    },
+    "toasts": {
+      "emailCopied": "Email copiado!"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "en": {
+    "aria": {
+      "openProjectLink": "Open project link",
+      "expandDetails": "Expand details",
+      "collapseDetails": "Collapse details"
+    },
+    "labels": {
+      "fullOverview": "Full Overview",
+      "learnings": "Learnings, Challenges, Outcomes"
+    }
+  },
+  "es": {
+    "aria": {
+      "openProjectLink": "Abrir enlace del proyecto",
+      "expandDetails": "Expandir detalles",
+      "collapseDetails": "Colapsar detalles"
+    },
+    "labels": {
+      "fullOverview": "Descripcion completa",
+      "learnings": "Aprendizajes, desafios y resultados"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "en": {
+    "pageTitle": "Extra:",
+    "back": "Back",
+    "items": [
+      {
+        "id": "extra-dnd",
+        "title": "DND",
+        "summary": "Sample extra project entry for DND. This space can include campaign tools, encounter trackers, and quick-reference resources.",
+        "tools": ["Sample", "Worldbuilding", "Narrative", "Tools"]
+      },
+      {
+        "id": "extra-narrative-worldbuilding",
+        "title": "Narrative Writing & Worldbuilding",
+        "summary": "Creative writing focused on designing settings, factions, lore, and character arcs for long-form tabletop campaigns and interactive stories.",
+        "tools": ["Storytelling", "Worldbuilding", "Lore Design", "Creative Writing"]
+      }
+    ]
+  },
+  "es": {
+    "pageTitle": "Extra:",
+    "back": "Volver",
+    "items": [
+      {
+        "id": "extra-dnd",
+        "title": "DND",
+        "summary": "Entrada de proyecto extra para DND. Este espacio puede incluir herramientas de campana, rastreadores de encuentros y recursos de referencia rapida.",
+        "tools": ["Muestra", "Worldbuilding", "Narrativa", "Herramientas"]
+      },
+      {
+        "id": "extra-narrative-worldbuilding",
+        "title": "Escritura Narrativa y Worldbuilding",
+        "summary": "Escritura creativa enfocada en disenar escenarios, facciones, lore y arcos de personajes para campanas de rol de largo alcance e historias interactivas.",
+        "tools": ["Storytelling", "Worldbuilding", "Diseno de Lore", "Escritura Creativa"]
+      }
+    ]
+  }
+}

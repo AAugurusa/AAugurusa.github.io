@@ -1,0 +1,23 @@
+<svg width="768" height="960" viewBox="0 0 768 960" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile Placeholder</title>
+  <desc id="desc">Abstract portrait placeholder with cyan glow accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061329"/>
+      <stop offset="55%" stop-color="#050814"/>
+      <stop offset="100%" stop-color="#02030A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="768" height="960" fill="url(#bg)"/>
+  <rect width="768" height="960" fill="url(#glow)"/>
+
+  <circle cx="384" cy="338" r="118" fill="#7DD3FC" fill-opacity="0.82"/>
+  <path d="M194 770c0-131 86-214 190-214s190 83 190 214" fill="#38BDF8" fill-opacity="0.62"/>
+  <rect x="180" y="164" width="408" height="632" rx="34" ry="34" fill="none" stroke="#7DD3FC" stroke-opacity="0.65" stroke-width="4"/>
+</svg>

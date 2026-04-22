@@ -1,0 +1,38 @@
+{
+  "en": {
+    "pageTitle": "Credits:",
+    "back": "Back",
+    "name": "Agustin Augurusa",
+    "subtitle": "Software Engineer | Videogame developer",
+    "paragraph1": "Computer Engineer graduated from Universidad Austral, focused on building interactive systems that combine a strong engineering foundation with engaging user experiences.",
+    "paragraph2": "My work sits at the intersection of software development and game design. I have developed game-based experiences and interactive applications, applying gameplay mechanics, feedback systems, and gamification principles to boost user engagement and learning.",
+    "paragraph3": "With full stack development experience (React, Node.js) and working with engines such as Unreal Engine and Godot, I approach game development from a systems perspective, designing not only how experiences look and feel, but also how they behave, scale, and evolve.",
+    "social": {
+      "githubAria": "GitHub",
+      "linkedinAria": "LinkedIn",
+      "copyEmailAria": "Copy email",
+      "copyEmailTitle": "Copy email"
+    },
+    "toasts": {
+      "emailCopied": "Email copied!"
+    }
+  },
+  "es": {
+    "pageTitle": "Creditos:",
+    "back": "Volver",
+    "name": "Agustin Augurusa",
+    "subtitle": "Ingeniero de Software | Desarrollador de Videojuegos",
+    "paragraph1": "Ingeniero Informatico graduado de la Universidad Austral, enfocado en construir sistemas interactivos que combinan una base solida de ingenieria con experiencias de usuario atractivas.",
+    "paragraph2": "Mi trabajo se ubica en la interseccion entre el desarrollo de software y el diseno de videojuegos. Desarrolle experiencias basadas en juegos y aplicaciones interactivas, aplicando mecanicas de gameplay, sistemas de feedback y principios de gamificacion para potenciar el engagement y el aprendizaje.",
+    "paragraph3": "Con experiencia en desarrollo full stack (React, Node.js) y trabajo con motores como Unreal Engine y Godot, abordo el desarrollo de videojuegos desde una perspectiva de sistemas, disanando no solo como se ven y se sienten las experiencias, sino tambien como se comportan, escalan y evolucionan.",
+    "social": {
+      "githubAria": "GitHub",
+      "linkedinAria": "LinkedIn",
+      "copyEmailAria": "Copiar email",
+      "copyEmailTitle": "Copiar email"
+    },
+    "toasts": {
+      "emailCopied": "Email copiado!"
+    }
+  }
+}
