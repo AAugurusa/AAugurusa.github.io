@@ -3,7 +3,6 @@ import app from '../translations/pages/app.json';
 import projects from '../translations/pages/projects.json';
 import extra from '../translations/pages/extra.json';
 import aboutMe from '../translations/pages/aboutMe.json';
-import contactModal from '../translations/pages/contactModal.json';
 import projectCard from '../translations/pages/projectCard.json';
 import contactPage from '../translations/pages/contactPage.json';
 import projectsData from '../translations/pages/projectsData.json';
@@ -13,7 +12,6 @@ const sources = {
   projects,
   extra,
   aboutMe,
-  contactModal,
   projectCard,
   contactPage,
   projectsData,

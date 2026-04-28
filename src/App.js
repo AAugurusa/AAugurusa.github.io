@@ -5,7 +5,6 @@ import Extra from "./pages/Extra";
 import Contact from "./pages/Contact";
 import AboutMe from "./pages/AboutMe";
 import Button from "./components/Button";
-import ContactModal from "./components/ContactModal";
 import { useLanguage } from "./contexts/LanguageContext";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -13,7 +12,6 @@ import "react-toastify/dist/ReactToastify.css";
 // Main menu that wires buttons to their behaviors
 const MainMenu = () => {
   const [selectedIndex, setSelectedIndex] = useState(0); // default START
-  const [isContactOpen, setIsContactOpen] = useState(false);
   const navigate = useNavigate();
   const emailAddress = "augurusaagustin@gmail.com";
   const { lang, setLang, t } = useLanguage();
@@ -43,9 +41,6 @@ const MainMenu = () => {
         break;
       case "extra":
         navigate(path);
-        break;
-      case "contact":
-        setIsContactOpen(true);
         break;
       default:
         navigate(path);
@@ -130,7 +125,6 @@ const MainMenu = () => {
                   selected={index === selectedIndex}
                   onHover={() => setSelectedIndex(index)}
                   onClick={() => handleButtonClick(option.id, option.path)}
-                  hoverDisabled={isContactOpen}
                 />
               </div>
             ))}
@@ -179,7 +173,6 @@ const MainMenu = () => {
       </div>
         </div>
       </div>
-      <ContactModal open={isContactOpen} onClose={() => setIsContactOpen(false)} />
       </div>
     
   );
