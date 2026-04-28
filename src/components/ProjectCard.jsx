@@ -60,7 +60,7 @@ const ProjectOverview = ({
                 {subtitle}
               </p>
 
-              <p className="mt-3 text-sm leading-relaxed text-slate-100/90">{summary}</p>
+              <p className="mt-3 text-base leading-relaxed text-slate-100/90 sm:text-lg">{summary}</p>
 
               <div className="mt-3 flex flex-wrap gap-2">
                 {tools.map((tool) => (
@@ -117,19 +117,19 @@ const ProjectOverview = ({
 
           <div className="flex flex-col gap-4 p-6 sm:p-8">
             <div>
-              <p className="text-xs uppercase tracking-[0.14em] text-sky-300">
+              <p className="text-sm uppercase tracking-[0.14em] text-sky-300 sm:text-base">
                 {t("projectCard.labels.fullOverview")}
               </p>
-              <p className="mt-2 text-sm leading-relaxed text-slate-100/90">
+              <p className="mt-2 text-base leading-relaxed text-slate-100/90 sm:text-lg">
                 {fullDescription}
               </p>
             </div>
 
             <div>
-              <p className="text-xs uppercase tracking-[0.14em] text-sky-300">
+              <p className="text-sm uppercase tracking-[0.14em] text-sky-300 sm:text-base">
                 {t("projectCard.labels.learnings")}
               </p>
-              <p className="mt-2 text-sm leading-relaxed text-slate-100/90">
+              <p className="mt-2 text-base leading-relaxed text-slate-100/90 sm:text-lg">
                 {learnings}
               </p>
             </div>

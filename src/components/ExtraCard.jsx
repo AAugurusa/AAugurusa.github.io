@@ -15,7 +15,7 @@ const ProjectOverviewReadOnly = ({ title, image, summary, tools }) => (
             {title}
           </h2>
 
-          <p className="mt-3 text-sm leading-relaxed text-slate-100/90">{summary}</p>
+          <p className="mt-3 text-base leading-relaxed text-slate-100/90 sm:text-lg">{summary}</p>
 
           <div className="mt-3 flex flex-wrap gap-2">
             {tools.map((tool) => (

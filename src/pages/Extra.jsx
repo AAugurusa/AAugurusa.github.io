@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../contexts/LanguageContext";
 import ProjectOverviewReadOnly from "../components/ExtraCard";
 import icon_dnd from "../assets/icons/Icon_dnd.png";
+import icon_wb from "../assets/icons/Icon_wb.png";
 
 const Extra = () => {
 	const navigate = useNavigate();
@@ -52,7 +53,7 @@ const Extra = () => {
 						>
 							<ProjectOverviewReadOnly
 								title={project.title}
-								image={icon_dnd}
+								image={project.id === "extra-narrative-worldbuilding" ? icon_wb : icon_dnd}
 								summary={project.summary}
 								tools={project.tools}
 							/>
